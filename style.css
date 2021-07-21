@@ -1,0 +1,193 @@
+@charset "UTF-8";
+* {
+  font-family: "Oswald", "微軟正黑體";
+  position: relative;
+}
+
+html, body {
+  overflow-x: hidden;
+  font-size: 16px;
+  background-color: #333333;
+}
+
+nav.nav-top .container {
+  position: relative;
+}
+nav.nav-top .container .navbar-collapse {
+  position: absolute;
+  right: 0px;
+}
+nav.nav-top a {
+  color: #ececec;
+  trainsition: 0.5s;
+}
+nav.nav-top a:hover {
+  color: #f5d061;
+}
+
+header#section_home {
+  width: 100%;
+  text-align: center;
+  height: 500px;
+  background-image: url(https://i.imgur.com/KwvIDMw.jpg);
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header#section_home .container {
+  width: 100%;
+  height: 400px;
+}
+header#section_home .container .box1 {
+  display: inline-block;
+  text-align: center;
+  color: #ececec;
+  font-size: 90px;
+  font-weight: 900;
+  min-width: 400px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header#section_home .container .box1 .box2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+section#section_about .row {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+section#section_about .row .col-sm-12 {
+  color: #ececec;
+  font-size: 30px;
+}
+
+section#section_main .container {
+  padding-top: 40px;
+  font-size: 20px;
+  color: #ececec;
+}
+section#section_main .container .row .imgbox {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+section#section_main .container .row .imgbox .imgbox_inner {
+  width: 100%;
+  padding-top: calc(100% * 3 / 4);
+  position: relative;
+}
+section#section_main .container .row .imgbox .imgbox_inner .image1 {
+  background-image: url(https://i.imgur.com/3zSgmsl.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+section#section_main .container .row .col-sm-7 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 40px;
+  position: relative;
+}
+section#section_main .container .row .col-sm-7 .main2 {
+  width: 200px;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+}
+section#section_main .container .row2 {
+  padding-top: 100px;
+}
+section#section_main .container .row2 .col-sm-8 {
+  margin: auto 0;
+}
+section#section_main .container .row2 .col-sm-8 .main3 {
+  max-width: 400px;
+  margin: 0 auto;
+}
+section#section_main .container .row2 .col-sm-4 .imgbox .imgbox_inner2 {
+  width: 100%;
+  padding-top: calc(100% * 4 / 4);
+  position: relative;
+}
+section#section_main .container .row2 .col-sm-4 .imgbox .imgbox_inner2 .image2 {
+  background-image: url(https://i.imgur.com/AF2Biqk.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+section#section_main .container .row3 {
+  padding-top: 100px;
+}
+section#section_main .container .row3 .col-sm-12 .box-shadow {
+  box-shadow: none;
+}
+section#section_main .container .row3 .col-sm-12 .box-shadow .image3 {
+  background-image: url(https://i.imgur.com/olh56ZO.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+section#section_main .container .row3 .main3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  max-width: 500px;
+  min-width: 400px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+section#section_next .row {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+section#section_next .row .col-sm-12 {
+  max-width: 600px;
+  color: #ececec;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+section#section_final {
+  width: 100%;
+  text-align: center;
+  background-image: url(https://i.imgur.com/VyZ8NyA.jpg);
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#section_final .row {
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+section#section_final .row .col-sm-12 {
+  max-width: 800px;
+  color: #ececec;
+  font-size: 30px;
+  margin: 0 auto;
+}
+section#section_final .row .col-sm-12 .final2 {
+  color: #ececec;
+  font-size: 70px;
+  font-weight: 900;
+}
